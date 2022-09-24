@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&display=swap');
+
+body{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    background-image: linear-gradient(225deg, rgb(132, 201, 143) 32%, rgb(163, 196, 175) 100%);
+    color:rgb(39, 39, 39);
+    margin: auto;
+    padding: 20px 20px;
+}
+.main{
+    height: auto;
+    width: 950px;
+    background-color: aliceblue;
+    border-radius: 17px;
+    border: solid 2px rgb(19, 58, 25);
+    padding: 35px 35px;
+    margin: 30px 0;
+}
+
+.img-container{
+    height: 400px;
+    margin: 35px 10px;
+}
+img{
+    border-radius: 8px;
+    width: auto;
+    max-height: 100%;
+}
+
+.text{
+    padding: 5px 5px;
+    text-align: left;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 17px;
+}
+
+a{
+    color: rgb(88, 88, 88);
+    text-decoration: none;
+    margin-top: 25px;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+}
